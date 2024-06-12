@@ -28,7 +28,6 @@ Lista = [1,2,3,4,5,6,7,8]
 ### Operaciones entre listas ###
 
 Mi_Lista = [4,3,2,1,6,5,7,5,"Hola","Soy Janer","Imprimir", 4,9,10,8,14,20]
-#print(Mi_Lista)
 
 """
 Se tiene una lista que combina diferentes tipos  de datos como se puede ver a continuacion se quiere realizar diferentes operaciones con la misma lista.
@@ -95,3 +94,10 @@ tales operaciones son:
 #
 #print(a)
 #print(c)
+
+Mi_Lista = [1,2,3,4,5,6,7,8,9]
+
+resul = 1
+for i in Mi_Lista:
+    resul *= i
+print(resul)
