@@ -88,5 +88,86 @@ print(min(mi_lista)) #min() imprime el valor minimo de la lista
 
 #mi_listaV2 = lista(set(mi_lista)) #set es para elimninar valores duplicados
 
+#DICCIONARIO
+"""
+Tiene una clave y tiene un valor
 
 
+
+d ={"Nombre":"Juan","Edad":24,"Cedula":1007675544}
+
+
+print(d.keys()) #Imprime las llaves
+print(d.values()) #Imprime los valores
+
+"""
+
+#Condicionales
+
+#if
+#elif
+#else
+
+"""
+if 5 == 4:
+    print("Verdadero_1")
+    if 3-2 == 1:
+        print("Verdadero_2")
+        if 56 < 10:
+            print("Verdadero_3")
+        else:
+            print("falso_3")
+    else:
+        print("falso_2")
+else:
+    print("Falso_1")
+
+
+while True:
+    numero = int(input("Ingrese un numero: "))
+
+    if numero == 0:
+        break
+        
+    
+    elif numero %2 ==0:
+        print("El numero es par")
+
+    else:
+        print("Numero eso impar")
+
+
+
+year = int(input("Ingrese un numero: "))
+
+if year% $ == 0 and (year % 100 !=0) or (year%400 ==0):
+    print("biciesto")
+
+else:
+    print("no")
+
+
+
+for loro in range(1,1000,15): #1 es inicio, 1000 es final y 15 son los pasos
+    if loro % 3 == 0:
+        print(f"{loro} es divisible por 3")
+    else:
+        print(f"{loro} no es divisible por 3")
+
+
+n = int(input("Ingrese un numero: "))
+a,b = 0,1
+
+fibo = []
+
+for i in range(n)
+    fibo.append(a)
+    a,b = b. a + b
+"""
+
+peso= float(input("Ingrese su peso: "))
+altura= int(input("Ingrese su altura en metros: "))
+imc = (peso//2) / (altura/100)
+print(peso//2)
+print((altura*100)*(altura*100))
+print(imc)
