@@ -45,14 +45,14 @@ tales operaciones son:
 
 #1)
 
-#Multiplicacion = Mi_Lista[:7]
-#Multiplicacion.sort()
-#Multiplicacion_1 = Mi_Lista[12:15]
-#Multiplicacion_1.sort()
-#multo_2 = Multiplicacion_1[:2]
-#Multiplicacion.extend(multo_2)
-#a = Multiplicacion[0]*Multiplicacion[1]*Multiplicacion[2]*Multiplicacion[3]*Multiplicacion[4]*Multiplicacion[5]*Multiplicacion[6]*Multiplicacion[7]*Multiplicacion[8]
-#print(a)
+Multiplicacion = Mi_Lista[:7]
+Multiplicacion.sort()
+Multiplicacion_1 = Mi_Lista[12:15]
+Multiplicacion_1.sort()
+multo_2 = Multiplicacion_1[:2]
+Multiplicacion.extend(multo_2)
+a = Multiplicacion[0]*Multiplicacion[1]*Multiplicacion[2]*Multiplicacion[3]*Multiplicacion[4]*Multiplicacion[5]*Multiplicacion[6]*Multiplicacion[7]*Multiplicacion[8]
+print(a)
 
 #2)
 #print(Mi_Lista[-7])
