@@ -9,7 +9,7 @@
 
 """
 
-Mi_Lista = [4,3,2,1,6,5,7,5,"Hola","Soy Juan","Imprimir", 4,9,10,8,14,20]
+#Mi_Lista = [4,3,2,1,6,5,7,5,"Hola","Soy Juan","Imprimir", 4,9,10,8,14,20]
 
 
 
@@ -88,8 +88,6 @@ mi_ListaEnteros2 = Mi_Lista[11:17]
 mi_ListaEnterosDefinitivo = mi_ListaEnteros1 + mi_ListaEnteros2
 print(mi_ListaEnterosDefinitivo)
 """
-
-
 
 
 

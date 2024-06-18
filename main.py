@@ -165,9 +165,14 @@ for i in range(n)
     a,b = b. a + b
 """
 
+"""
 peso= float(input("Ingrese su peso: "))
 altura= int(input("Ingrese su altura en metros: "))
 imc = (peso//2) / (altura/100)
 print(peso//2)
 print((altura*100)*(altura*100))
 print(imc)
+
+"""
+
+
